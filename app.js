@@ -45,5 +45,5 @@ app.get('/', (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server is listening on port ${port}! Server running on http://192.168.124.51:8000`);
+  console.log(`Server is listening on port ${port}! Server running on http://yourip:8000`);
 });
