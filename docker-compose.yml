@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  prom-server:
+    image: prom/prometheus
+    ports:
+      - 9090:9090
+    volumes:
+      - ./prometheus-conf.yml:/etc/prometheus/prometheus-conf.yml
+
+# after creating this, type `docker compose up` and make sure all names and assigned
+#       ports are correctly ordered
