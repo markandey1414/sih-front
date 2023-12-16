@@ -1,6 +1,6 @@
 # sih-front
 
-Make sure docker engine is running and assigned ports are available.
+Make sure docker engine is running and assigned ports are available. In the `app.js` and other files, edit the file locations as needed.
 
 Install requirements.txt
 `npm i requirements.txt`
